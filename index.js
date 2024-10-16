@@ -37,6 +37,9 @@ app.post("/youtube", (req, res) => {
     sendMessage(`<@&1225863384881299546> \nCedric Wandrey hat ein neues Video bei YouTube hochgeladen! Schaut es euch an und genießt die wundervolle Welt der Autos. \n${link}`);
     res.send("Success!").status(200).end();
 });
+app.get("/test", (req, res) => {
+    res.send("Success!").status(200).end();
+});
 
 
 
